@@ -1,0 +1,53 @@
+{
+  "name": "dashboard-boilerplate",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --report-unused-disable-directives --max-warnings 0 --ignore-path .gitignore --ext .ts,.tsx ./src",
+    "lint:fix": "npm run lint -- --fix",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@mantine/carousel": "^5.10.0",
+    "@mantine/core": "^5.10.0",
+    "@mantine/dates": "^5.10.0",
+    "@mantine/dropzone": "^5.10.0",
+    "@mantine/form": "^5.10.0",
+    "@mantine/hooks": "^5.10.0",
+    "@mantine/modals": "^5.10.0",
+    "@mantine/notifications": "^5.10.0",
+    "@mantine/nprogress": "^5.10.0",
+    "@mantine/spotlight": "^5.10.0",
+    "@mantine/tiptap": "^5.10.0",
+    "@tabler/icons": "^1.119.0",
+    "@tiptap/extension-link": "^2.0.0-beta.209",
+    "@tiptap/react": "^2.0.0-beta.209",
+    "@tiptap/starter-kit": "^2.0.0-beta.209",
+    "dayjs": "^1.11.7",
+    "embla-carousel-react": "^7.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.6.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "@vitejs/plugin-react": "^3.0.0",
+    "eslint": "^8.31.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.2",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  }
+}
